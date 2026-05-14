@@ -1,0 +1,34 @@
+{
+    "categories":[
+        {
+            "name":"paintings",
+            "image":"/images/categories/paintings.WEBP",
+            "hero":"/images/categories/paintingsHero.PNG"
+        },
+        {
+            "name":"sculptures",
+            "image":"/images/categories/sculptures.PNG",
+            "hero":"/images/categories/sculpturesHero.WEBP"
+        },
+        {
+            "name":"photography",
+            "image":"/images/categories/photography.JPG",
+            "hero":"/images/categories/photographyHero.PNG"
+        },
+        {
+            "name":"digitalArt",
+            "image":"/images/categories/digital.GIF",
+            "hero":"/images/categories/paintingsHero.PNG"
+        },
+        {
+            "name":"anitiques",
+            "image":"/images/categories/antique.JPG",
+            "hero":"/images/categories/antiquesHero.JPG"
+        },
+        {
+            "name":"collectibles",
+            "image":"/images/categories/collectibles.png",
+            "hero":"/images/categories/paintingsHero.PNG"
+        }
+    ]
+}

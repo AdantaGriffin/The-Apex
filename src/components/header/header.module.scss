@@ -1,0 +1,49 @@
+
+@media only screen and (max-width: 1000px) {
+    .header{
+    }
+    .headerNav, .linkList{
+        display: none !important;
+    }
+}
+.header{
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-family: "Cinzel";
+    .logo{
+        font-size: 60px;
+
+        a{
+            color: darkred;
+            text-decoration: none;
+        }
+    }
+    .headerNav{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        padding: 0;
+        margin: 0;
+        gap: 40px;
+
+        li{
+            &:hover{
+                cursor: pointer;
+                text-decoration: underline;
+                text-decoration-color: red;
+                text-underline-offset: 10px;
+            }
+        }
+    }
+    .linkList{
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,100 @@
+
+@media only screen and (max-width: 1200px) {
+    
+}
+.home{
+    font-family: "Cinzel";
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    background-color: black;
+    .categories{
+        color: white;
+        font-size: clamp(18px, 9vw, 24px);
+        margin-left: 25px;
+        position: relative;
+        bottom: 70px;
+    }
+    .homeHero{
+        .heroText{
+            padding-left: 25px;
+            background-image: url('../../../public/images/hero1.PNG');
+            background-size: 60% 100%;
+            background-position: right;
+            height: 100%;
+            background-repeat: no-repeat;
+            color: white;
+            align-content: center;
+            display: grid;
+            grid-template-rows: 2fr .5fr .5fr;
+
+            h2{
+                font-size: clamp(40px, 10vw, 80px);
+                width: 65%;
+                font-weight: 600;
+                align-content: center;
+                position: relative;
+                bottom: 50px;
+            }
+            .red{
+                color: red;
+            }
+            p{
+                font-size: clamp(18px, 10vw, 24px);
+                position: relative;
+                bottom: 50px;
+            }
+            a{
+                position: relative;
+                bottom: 50px;
+                background-color: red;
+                color: white;
+                border-radius: 10px;
+                text-decoration: none;
+                align-content: center;
+                text-align: center;
+                width: 30%;
+                min-width: 200px;
+                height: 50px;
+                padding: 0 10px;
+                &:hover{
+                    box-shadow: inset 1px 1px 10px darkred;
+                    color: darkred;
+                }
+            }
+        }
+    }
+    .homeCategories{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        
+        .homeList{
+            height: 90%;
+            width: fit-content;
+            display: flex;
+            gap: 20px;
+        }
+        .category{
+            border: 2px solid grey;
+            width: 250px;
+            height: 90%;
+            border-radius: 10px;
+            position: relative; 
+            overflow: hidden; 
+            &:hover{
+                border: 2px solid red;
+                cursor: pointer;
+            }
+        }
+        h4{
+            position: absolute;
+            bottom: 20px;   // or top: 20px
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 0;
+            z-index: 2;
+            color: white;
+            text-shadow: 1px 1px 4px black;
+        }
+    }
+}

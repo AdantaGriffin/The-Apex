@@ -1,0 +1,84 @@
+@media only screen and (max-width: 1000px) {
+    .item{
+        display: block !important;
+    }    
+}
+.item{
+    height: fit-content;
+    font-family: "Cinzel";
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 45% 55%;
+
+    .itemLeft, .itemRight{
+        border: 1px solid grey;
+    }
+
+    .itemLeft{
+        display: grid;
+        grid-template-rows: 70% 30%;
+        .itemImage{
+            background-color: grey;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .itemStory{
+        }
+    }
+
+    .itemRight{
+        overflow-x: scroll;
+        display: grid;
+        grid-template-rows: 60% 40%;
+        
+
+        .itemDetails{
+            padding: 0 20px;
+
+            .itemTitle{
+                font-size: 40px;
+            }
+            .itemArtist{
+                font-size: 28px;
+            }
+            .year{
+                font-size: 22px;
+            }
+            .priceBlock{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .red{
+                    color: gold;
+                }
+            }
+            .price{
+                font-size: 40px;
+                color: red;
+
+            }
+            .kind{
+                font-size: 16px;
+            }
+            .inquire{
+                height: 50px;
+                width: 250px;
+                color: white;
+                border-radius: 10px;
+                background-color: red;
+                border: none;
+                &:hover{
+                    box-shadow: inset 1px 1px 10px darkred;
+                    cursor: pointer;
+                }
+            }
+        }
+        .itemSpecs{
+            padding: 0 20px;
+            min-height: 350px;
+        }
+    }
+}
