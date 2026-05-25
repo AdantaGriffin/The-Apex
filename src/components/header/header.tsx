@@ -19,8 +19,8 @@ function Header(){
 
                 <div className={styles.headerLinks}>
                     <ul className={styles.linkList}>
-                        <li><img src="../../../public/images/links/search.png" alt="search icon" height="20px" width="20px"/></li>
-                        <li><img src="../../../public/images/links/profile.png" alt="search icon" height="30px" width="30px"/></li>
+                        <li className={styles.searchLink}></li>
+                        <li className={styles.profileLink}></li>
                     </ul>
                 </div>
             </header>

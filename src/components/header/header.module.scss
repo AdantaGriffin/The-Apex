@@ -45,5 +45,28 @@
         padding: 0;
         margin: 0;
         gap: 20px;
+
+        .searchLink{
+            background-image: url('../../../public/images/links/profile.png');
+            background-size: cover;
+            height: 30px;
+            width: 30px;
+            &:hover{
+                transform: scale(1.5);
+                cursor: pointer;
+            }
+        }
+        .profileLink{
+            background-image: url(../../../public/images/links/search.png);
+            background-size: cover;
+            height: 20px;
+            width: 20px;
+            position: relative;
+            top: 5px;
+            &:hover{
+                transform: scale(1.5);
+                cursor: pointer;
+            }
+        }
     }
 }

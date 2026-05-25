@@ -17,6 +17,7 @@ type Data = {
     provenence: string;
     image: string;
     dimension: string;
+    story: string;
 }
 
 type ApiContextType = {
