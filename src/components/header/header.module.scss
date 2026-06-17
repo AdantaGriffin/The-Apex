@@ -37,6 +37,16 @@
                 text-decoration-color: red;
                 text-underline-offset: 10px;
             }
+            a{
+                color: white;
+                text-decoration: none;
+                &:hover{
+                    cursor: pointer;
+                    text-decoration: underline;
+                    text-decoration-color: red;
+                    text-underline-offset: 10px;
+                }
+            }
         }
     }
     .linkList{

@@ -18,6 +18,8 @@ type Data = {
     image: string;
     dimension: string;
     story: string;
+    height: string;
+    width: string;
 }
 
 type ApiContextType = {

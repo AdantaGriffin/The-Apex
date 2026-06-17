@@ -31,41 +31,42 @@
             justify-content: space-evenly;
             gap: 20px;
             padding: 20px 0;
-
             .categoryItem{
                 border: 1px solid grey;
                 width: 300px;
                 height: 400px;
-                box-sizing: border-box;
                 img{
-                    width: 100%;
                     height: 100%;
+                    width: 100%;
                 }
+                display: grid;
+                grid-template-rows: 40% 60%;
             }
-
             a{
                 text-decoration: none;
+                align-content: center;
             }
             .itemDetail{
-                height: 100px;
-                position: relative;
-                bottom: 140px;
                 z-index: 2;
-                background-color: rgba(120,120,120,.2);
-                align-content: center;
                 color: whitesmoke;
                 text-shadow: 1px 1px 10px black;
+            
+                &:hover{
+                    cursor: pointer;
+                    //background: rgba(160, 159, 159, 0.2);
+                }
+        
                 .name{
-                    font-size: 24px;
-                padding: 0 20px;
+                    font-size: 22px;
+                    padding: 0 20px;
                 }
                 .year{
                     font-size: 20px;
-                padding: 0 20px;
+                    padding: 0 20px;
                 }
                 .artist{
-                padding: 0 20px;
-                    font-size: 28px;
+                    padding: 0 20px;
+                    font-size: 24px;
                     color: red;
                 }
             }

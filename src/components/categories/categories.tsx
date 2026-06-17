@@ -33,9 +33,12 @@ function Categories(){
                         {filtered?.map(x => (
                             <li 
                             className={styles.categoryItem}
-                            key={x.id}>
-
-                                <img src={x.image}/>
+                            key={x.id} 
+                            style={{
+                                backgroundImage: `url(${x.image})`,
+                                backgroundSize: '100% 100%'
+                            }}>
+                                <div></div>
                                 <Link onClick={toTop} to={`/categories/${x.name}/${x.id}`} className={styles.itemDetail}>
                                     <div className={styles.name}>{x.name}</div>
                                     <div className={styles.year}>{x.year}</div>

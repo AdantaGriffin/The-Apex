@@ -9,7 +9,7 @@ function Header(){
 
                 <nav>
                     <ul className={styles.headerNav}>
-                        <li>HOME</li>
+                        <li><Link to="/">HOME</Link></li>
                         <li>COLLECTIONS</li>
                         <li>ARTIST</li>
                         <li>MAGAZINE</li>
