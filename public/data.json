@@ -975,6 +975,84 @@
             "provenence":"",
             "image":"",
             "story":""
+        },
+        {
+            "id":"pc1",
+            "name":"Doctor Gachet",
+            "artist":"Vincent Van Gogh",
+            "year":"1890",
+            "value":"82,500,000",
+            "type":"oil on canvas",
+            "dimension":"",
+            "location":"",
+            "provenence":"Dr. Paul Gachet (France), Alice Ruben Faber (Denmark), Stadel Museum (Germany), Nazi confiscation (1937-1938), Siegfried Kramarshy (New York), MoMa (on loan)(New York), Ryoei Saito (Japan)",
+            "image":"/images/gachet.jpg",
+            "story":""
+        },
+        {
+            "id":"pc2",
+            "name":"Bal du moulin de la Galette",
+            "artist":"Auguste Renoir",
+            "year":"1876",
+            "value":"78,100,000",
+            "type":"huile sur toile",
+            "dimension":"135.5 x 176.5 cm",
+            "location":"France",
+            "provenence":"Gustave Caillebotte (France), Musee of Luxenbourg (France), Mesee of Louvre (France), Musee d'Orsay (France)",
+            "image":"/images/galette.jpg",
+            "story":""
+        },
+        {
+            "id":"pc3",
+            "name":"Nintendo World Championship Cartridge",
+            "artist":"Steve Grossman, jay Ccoleman",
+            "year":"1990",
+            "value":"207,400",
+            "type":"video game",
+            "dimension":"",
+            "location":"California",
+            "provenence":"",
+            "image":"/images/nes.webp",
+            "story":""
+        },
+        {
+            "id":"pc4",
+            "name":"Larami Super Soker 100 (pre Hasbro)",
+            "artist":"Lonnie Johnson",
+            "year":"1982",
+            "value":"10,000",
+            "type":"toy",
+            "dimension":"26 inch",
+            "location":"Philadelphia",
+            "provenence":"",
+            "image":"/images/waterGun.png",
+            "story":""
+        },
+        {
+            "id":"pc5",
+            "name":"",
+            "artist":"",
+            "year":"",
+            "value":"",
+            "type":"",
+            "dimension":"",
+            "location":"",
+            "provenence":"",
+            "image":"",
+            "story":""
+        },
+        {
+            "id":"pc6",
+            "name":"",
+            "artist":"",
+            "year":"",
+            "value":"",
+            "type":"",
+            "dimension":"",
+            "location":"",
+            "provenence":"",
+            "image":"",
+            "story":""
         }
     ]
 }
